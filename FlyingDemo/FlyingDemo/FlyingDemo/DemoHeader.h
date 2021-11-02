@@ -1,5 +1,5 @@
 //
-//  TestClass.h
+//  DemoHeader.h
 //  FlyingDemo
 //
 //  Created by 梁承飞 on 2021/11/2.
@@ -9,7 +9,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestClass : NSObject
+@protocol DemoHeader <NSObject>
 
 @end
 
