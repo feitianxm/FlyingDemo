@@ -16,6 +16,7 @@
 		DD78B12F2731744200631F89 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78B12E2731744200631F89 /* main.m */; };
 		DD78B1392731744300631F89 /* FlyingDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1382731744300631F89 /* FlyingDemoTests.m */; };
 		DD78B1442731744300631F89 /* FlyingDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78B1432731744300631F89 /* FlyingDemoUITests.m */; };
+		DD78B15D2731746800631F89 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = DD78B15C2731746800631F89 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		DD78B13F2731744300631F89 /* FlyingDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlyingDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD78B1432731744300631F89 /* FlyingDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlyingDemoUITests.m; sourceTree = "<group>"; };
 		DD78B1452731744300631F89 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD78B15B2731746800631F89 /* TestClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		DD78B15C2731746800631F89 /* TestClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +112,9 @@
 				DD78B11F2731744000631F89 /* SceneDelegate.h */,
 				DD78B1202731744000631F89 /* SceneDelegate.m */,
 				DD78B1222731744000631F89 /* ViewController.h */,
-				DD78B1232731744000631F89 /* ViewController.m */,
 				DD78B1252731744000631F89 /* Main.storyboard */,
+				DD78B1232731744000631F89 /* ViewController.m */,
+				DD78B1542731745200631F89 /* FlyingDemo */,
 				DD78B1282731744200631F89 /* Assets.xcassets */,
 				DD78B12A2731744200631F89 /* LaunchScreen.storyboard */,
 				DD78B12D2731744200631F89 /* Info.plist */,
@@ -135,6 +139,15 @@
 				DD78B1452731744300631F89 /* Info.plist */,
 			);
 			path = FlyingDemoUITests;
+			sourceTree = "<group>";
+		};
+		DD78B1542731745200631F89 /* FlyingDemo */ = {
+			isa = PBXGroup;
+			children = (
+				DD78B15B2731746800631F89 /* TestClass.h */,
+				DD78B15C2731746800631F89 /* TestClass.m */,
+			);
+			path = FlyingDemo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +279,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD78B15D2731746800631F89 /* TestClass.m in Sources */,
 				DD78B1242731744000631F89 /* ViewController.m in Sources */,
 				DD78B11E2731744000631F89 /* AppDelegate.m in Sources */,
 				DD78B12F2731744200631F89 /* main.m in Sources */,
